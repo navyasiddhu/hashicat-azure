@@ -137,7 +137,7 @@ resource "azurerm_linux_virtual_machine" "catapp" {
   tags = {
         devops = "azurerm_virtual_machine",
         department = "devops",
-        billable = "azurerm_virtual"
+        billable = "true"
   }
 
   # Added to allow destroy to work correctly.
